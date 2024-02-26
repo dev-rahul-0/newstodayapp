@@ -25,12 +25,16 @@ class NewsContain extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               fit: BoxFit.cover,
               imgUrl),
-          const SizedBox(height: 10,),
+          const SizedBox(
+            height: 10,
+          ),
           Text(
             newsHead,
             style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
-          const SizedBox(height: 5,),
+          const SizedBox(
+            height: 5,
+          ),
           Text(
             newsDes,
             style: const TextStyle(fontSize: 16),
